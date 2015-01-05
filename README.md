@@ -9,7 +9,8 @@ It is compatible to the most recent versions of phabricator.
 Just copy the ecolony folder into your dojo folder. Get the certificate generated inside of the phabricator user management (generated per user).
 
 Usage example:
-	define(["dojo/_base/declare",
+
+		define(["dojo/_base/declare",
      		"ecolony/Conduit"], function(declare, Conduit) {
 
 	    var phab = new Conduit(

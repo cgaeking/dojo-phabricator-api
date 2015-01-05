@@ -4,8 +4,9 @@ define([
 	"dojox/encoding/digests/SHA1"
 ], function(declare, json, SHA1){
 
-	// e-colony Phabricator-Conduit Connector
-
+	/* e-colony Phabricator-Conduit Connector
+	*  written by Christian Gaeking
+	*/
 	var Conduit = declare("ecolony.Conduit", null, {
 		cert: "",
 		user: "",
